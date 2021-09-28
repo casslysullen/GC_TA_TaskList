@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Cassly's Todo List'</h1>
+    <p class="lead">Let's get organized and list our daily Task.</p>
+</div>
+
+<div class="row">
+    <div>
+        <h2>@Html.ActionLink("Task", "Index", "TaskLists")</h2>
+        <p>
+            Click "Task to create, delete, or update task."
+        </p>
+    </div>
+</div>
